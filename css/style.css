@@ -1,0 +1,156 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+
+	color: #273d46;
+	background: url("../img/Ellipsey.png") 55% -160% no-repeat #e8e8e8;;
+}
+.container {
+	margin: 0 auto;
+	max-width: 840px;
+	align-items: center;
+	padding: 115px 45px;
+	font-size: 24px;
+}
+.yu {
+	text-align: center;
+}
+.title {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	opacity: .6;
+}
+.subtitle {
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 36px;
+	line-height: 50px;
+	margin-bottom: 77px;
+}
+.iii {
+	border: 10px solid #fff;
+	margin: 0 0 100px -45px;
+	box-shadow: 0px 0px 350px #b6b6b6;
+}
+.text1 {
+	margin-bottom: 60px;
+	opacity: .8;
+}
+.text2 {
+	margin-bottom: 60px;
+	opacity: .8;
+}
+.list_1, .list_2, .list_3{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-bottom: 80px;
+	font-size: 20px;
+}
+.list_1 li, .list_2 li, .list_3 li  {
+	background: url("../img/icon.png") left 2px no-repeat;
+	padding-left: 35px;
+	margin-bottom: 15px;
+}
+.list_1 .l2 {
+	font-style: italic;
+	color: #80b7b3;
+}
+.list_1 .l3 {
+}
+.list_1 li span {
+	opacity: .3;
+}
+.list_1 .l4 {
+	text-decoration: line-through;
+}
+.list_2 ul :first-child {
+	text-decoration: line-through;
+}
+.list_2 ul :nth-child(2) {
+	font-weight: 700;
+}
+.list_2 ul :nth-child(3) {
+	font-style: italic;
+}
+.list_2 ul :last-child {
+	text-transform: uppercase;
+}
+.list_3 {
+	margin-bottom: 145px;
+}
+.list_3 ul li:hover {
+	background: url("../img/check-hover.png") left 2px no-repeat;
+	color: #d55a5a;
+}
+.btn {
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 125px;
+	background: #80b7b3;
+	padding: 15px 30px;
+	font-size: 14px;
+	border-radius: 50px;
+	max-width: 200px;
+	max-height: 43px;
+	box-shadow: 1px 1px 50px #80b7b3;
+}
+.btn:hover {
+	background: #3a5856;
+}
+.btn:active {
+	background: #818181;
+	box-shadow: none;
+}
+.arrow {
+	margin-left: 10px;
+}
+a {
+	color: #fff;
+}
+.textinput {
+	padding: 25px;
+	font-size: 20px;
+	border: 1px solid #b0b0b0;
+	height: 50px;
+	width: 295px;
+}
+.textinput:focus {
+	border: 1px solid #7fbed5;
+	box-shadow: 1px 1px 15px #7fbed5;
+}
